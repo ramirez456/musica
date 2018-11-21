@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://ramirez456.github.io/musica/assets/logo.png')
     h1 Max Music
     select(v-model="selectedCountry")
       option(v-for="country in countries" :value="country.value") {{country.name}}
